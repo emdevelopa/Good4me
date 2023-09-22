@@ -57,13 +57,15 @@ export default function Good4meDeal() {
                     </div>
                 </section>
 
-                <section className="flex">
-                    <div className="flex flex-col w-[50%]">
-                        <h1 className="font-bold text-[30px]">TAKE CONTROL OF YOUR HEALTH</h1>
-                        <p>The Good4Me range has been formulated based on scientific & traditional evidence.</p>
-                        <p>Our vitamins are here and ready to boost your mood, immunity and overall well-being!</p>
-                        <p>Made in New Zealand from local and imported ingredients.</p>
-                        <div><button className="py-4 px-6 border-[2px] border-[#F6623E]">BROWSE OUR RANGE</button></div>
+                <section className="flex justify-between items-center p-12">
+                    <div className="w-[40%]">
+                        <div className="flex flex-col  justify-center gap-4">
+                            <h1 className="font-bold text-[30px] tracking-[4px]">TAKE CONTROL OF <br/> YOUR HEALTH</h1>
+                            <p>The Good4Me range has been formulated based on scientific & traditional evidence.</p>
+                            <p>Our vitamins are here and ready to boost your mood, immunity and overall well-being!</p>
+                            <p>Made in New Zealand from local and imported ingredients.</p>
+                            <div><button className="font-bold py-4 px-6 border-[2px] border-[#F6623E]">BROWSE OUR RANGE</button></div>
+                        </div>
                     </div>
                     <div className="flex gap-4 flex-shrink-3 w-[50%]">
                         <div className="flex flex-col justify-between">
