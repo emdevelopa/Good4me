@@ -13,26 +13,27 @@ export default function Good4meDeal(){
                 </div>
                 <section  className=" flex justify-around py-4">
                     <div>
-                        <div className="bg-[#E8E8E8] flex items-center justify-center px-2 py-[20%]">
+                        <div className="bg-[#E8E8E8] h-[100%] flex items-center justify-center px-2 py-[20%]">
                             <Image src='multivitamin.svg' alt='cards' width={200} height={0}/>
                         </div>
                         <h3 className="font-bold ">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
 
                     <div className="">
-                        <div className="bg-[#E8E8E8] h-[20em] bg-center bg-fixed bg-cover bg-no-repeat" style={{background:'url(multivitamin2.svg)'}}>
+                        <div className="bg-[#E8E8E8] w-[100%] h-[100%]" style={{background:'url(multivitamin2.svg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
                             {/* <Image src='multivitamin2.svg' alt='cards' width={200} height={200}/> */}
                         </div>
                         <h3 className="font-bold ">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
                     <div className="">
-                        <div className="bg-[#E8E8E8] flex items-center justify-center px-2 py-14">
-                            <Image src='multivitamin.svg' alt='cards' width={200} height={200}/>
+                        <div className="bg-[#E8E8E8] h-[100%] flex items-center justify-center px-2 py-14">
+                            <Image src='multivitamin3.svg' alt='cards' width={200} height={200}/>
                         </div>
                         <h3 className="font-bold ">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
-                    </div><div className="">
-                        <div className="bg-[#E8E8E8] flex items-center justify-center px-2 py-14">
-                            <Image src='multivitamin.svg' alt='cards' width={200} height={200}/>
+                    </div>
+                    <div className="">
+                        <div className="bg-[#E8E8E8] w-[100%] h-[100%]" style={{background:'url(multivitamin4.svg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+                            {/* <Image src='multivitamin2.svg' alt='cards' width={200} height={200}/> */}
                         </div>
                         <h3 className="font-bold ">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
