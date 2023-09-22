@@ -1,4 +1,5 @@
 import Image from "../../node_modules/next/image";
+import Good4meDeal from './components/dealsectiong'
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
           <div><button className="bg-[#F6623E] text-white py-2 px-4 ">SHOP NOW</button></div>
         </div>
       </div>
+      <Good4meDeal/>
     </main>
   );
 }
