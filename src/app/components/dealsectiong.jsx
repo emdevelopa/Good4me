@@ -6,12 +6,12 @@ export default function Good4meDeal() {
             <section className="py-8">
                 <div className="flex flex-col items-center gap-3">
                     <h1 className="text-[32px] font-bold">GOOD4ME DEAL</h1>
-                    <div className="w-[8em] h-[5px] bg-orange-800"></div>
+                    <div className="w-[8em] h-[5px] bg-[#F6623E]"></div>
                     <p className="text-center">
                         Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all classy <br /> products today!
                     </p>
                 </div>
-                <section className=" flex gap-4 justify-around p-4">
+                <section className=" flex gap-4 justify-around p-12">
                     <div className="w-full">
                         <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-[20%]">
                             <Image src='multivitamin.svg' alt='cards' width={200} height={0} />
@@ -36,16 +36,25 @@ export default function Good4meDeal() {
                         <h3 className="font-bold text-center py-4">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
                 </section>
-                <section>
-                   <div>
-                   <div className="bg-blue-400 w-[20%] h-[8em] relative flex justify-center">
-                        <div className=" absolute top-0 w-[7em] h-[7em] z-10">
-                        <Image src='plane.svg' alt='plane' width={100} height={0}/>
-                        </div>
-                        <div className="w-[4em] h-[4em] rounded-[50%] bg-[#F6623E] absolute top-10 right-20"></div>
+                <section className="flex gap-8 px-[10em]">
+                    <div className="flex flex-col justify-center gap-3 items-center">
+                        <Image src='/plane.png' alt='plane' width={100} height={0} />
+                        <h1 className="font-bold">WORLDWIDE SHIPPING</h1>
+                        <p className="text-center text-[#9D9D9D]">Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit. Aenean</p>
                     </div>
-                    <h1></h1>
-                   </div>
+                    <div className="flex flex-col justify-center gap-3 items-center">
+                        <Image src='/plane.png' alt='plane' width={100} height={0} />
+                        <h1 className="font-bold">WORLDWIDE SHIPPING</h1>
+                        <p className="text-center text-[#9D9D9D]">Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit. Aenean</p>
+                    </div>
+                    <div className="flex flex-col justify-center gap-3 items-center">
+                        <Image src='/plane.png' alt='plane' width={100} height={0} />
+                        <h1 className="font-bold">WORLDWIDE SHIPPING</h1>
+                        <p className="text-center text-[#9D9D9D]">Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit. Aenean</p>
+                    </div>
                 </section>
             </section>
         </>
