@@ -37,10 +37,15 @@ export default function Good4meDeal() {
                     </div>
                 </section>
                 <section>
-                    <div className="bg-blue-400 w-[20%] relative">
-                        <Image className="absolute" src='plane.svg' alt='plane' width={100} height={0}/>
-                        <div className="w-[4em] h-[4em] rounded-[50%] bg-[#F6623E]"></div>
+                   <div>
+                   <div className="bg-blue-400 w-[20%] h-[8em] relative flex justify-center">
+                        <div className=" absolute top-0 w-[7em] h-[7em] z-10">
+                        <Image src='plane.svg' alt='plane' width={100} height={0}/>
+                        </div>
+                        <div className="w-[4em] h-[4em] rounded-[50%] bg-[#F6623E] absolute top-10 right-20"></div>
                     </div>
+                    <h1></h1>
+                   </div>
                 </section>
             </section>
         </>
