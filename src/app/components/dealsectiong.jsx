@@ -13,27 +13,27 @@ export default function Good4meDeal(){
                 </div>
                 <section  className=" flex gap-4 justify-around p-4">
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[90%] flex items-center justify-center px-2 py-[20%]">
+                        <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-[20%]">
                             <Image src='multivitamin.svg' alt='cards' width={200} height={0}/>
                         </div>
-                        <h3 className="font-bold text-center">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
+                      <h3 className="font-bold text-center mt-8">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
 
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] w-[100%] h-[90%]" style={{background:'url(multivitamin2.svg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+                        <div className="bg-[#E8E8E8] h-[20em] w-[100%]" style={{background:'url(multivitamin2.svg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
                         </div>
-                        <h3 className="font-bold text-center">FULL RANGE VALUE PACK (SAVE 33%)</h3>
+                        <h3 className="font-bold text-center mt-8">FULL RANGE VALUE PACK (SAVE 33%)</h3>
                     </div>
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[90%] flex items-center justify-center px-2 py-14">
+                        <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-14">
                             <Image src='multivitamin3.svg' alt='cards' width={200} height={200}/>
                         </div>
-                        <h3 className="font-bold text-center">VITAMIN C: IMMUNITY SUPPORT</h3>
+                        <h3 className="font-bold text-center mt-8">VITAMIN C: IMMUNITY SUPPORT</h3>
                     </div>
                     <div className="w-full text-center">
-                        <div className="bg-[#E8E8E8] w-[100%] h-[90%]" style={{background:'url(multivitamin4.svg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
+                        <div className="bg-[#E8E8E8] w-[100%] h-[20em]" style={{background:'url(multivitamin4.svg)',backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
                         </div>
-                        <h3 className="font-bold ">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
+                        <h3 className="font-bold text-center mt-8">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
                 </section>
             </section>
