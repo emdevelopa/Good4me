@@ -1,5 +1,6 @@
 import Image from "../../node_modules/next/image";
 import Good4meDeal from './components/dealsectiong'
+import Ourproducts from './components/ourproduct'
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
         </div>
       </div>
       <Good4meDeal/>
+      <Ourproducts/>
     </main>
   );
 }

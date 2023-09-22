@@ -64,7 +64,7 @@ export default function Good4meDeal() {
                             <p>The Good4Me range has been formulated based on scientific & traditional evidence.</p>
                             <p>Our vitamins are here and ready to boost your mood, immunity and overall well-being!</p>
                             <p>Made in New Zealand from local and imported ingredients.</p>
-                            <div><button className="font-bold py-4 px-6 border-[2px] border-[#F6623E]">BROWSE OUR RANGE</button></div>
+                            <div><button className="font-bold py-4 px-6 border-[2px] border-[#F6623E] hover:bg-[#F6623E] hover:text-[#fff]">BROWSE OUR RANGE</button></div>
                         </div>
                     </div>
                     <div className="flex gap-4 flex-shrink-3 w-[50%]">
