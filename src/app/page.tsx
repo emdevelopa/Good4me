@@ -2,18 +2,23 @@ import Image from "../../node_modules/next/image";
 import Good4meDeal from "./components/dealsectiong";
 import Ourproducts from "./components/ourproduct";
 import Carousel from "./components/carousel";
+import Shopall from "./components/shopAll";
+
 
 const images = [
   {
-    image: "lady1.svg",
+    image: "carouselImg.svg",
     rating: [1, 2, 3, 4],
     overview:
       "“We have perfected our formulas over time, based on your feedback. Check out hundreds of reviews on our website.We can't wait until you are a part of our Good4Me Family.”",
     "user":"_Chloe H."
   },
   {
-    image: "lady2.svg",
+    image: "carouselImg.svg",
     rating: [1, 2, 4],
+    overview:
+      "“We have perfected our formulas over time, based on your feedback. Check out hundreds of reviews on our website.We can't wait until you are a part of our Good4Me Family.”",
+    user:"_Anita A."
   },
 ];
 
@@ -96,6 +101,7 @@ export default function Home() {
       <Good4meDeal />
       <Ourproducts />
       <Carousel images={images} />
+      <Shopall/>
     </main>
   );
 }
