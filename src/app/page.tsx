@@ -1,3 +1,4 @@
+"use client"
 import Image from "../../node_modules/next/image";
 import Good4meDeal from "./components/dealsectiong";
 import Ourproducts from "./components/ourproduct";
@@ -6,6 +7,7 @@ import Shopall from "./components/shopAll";
 import Latestnews from "./components/latestNews";
 import GOOD4ME from "./components/#GOOD4ME";
 import Footer from "./components/footer";
+import { useState } from "react";
 
 
 
@@ -27,11 +29,12 @@ const images = [
 ];
 
 export default function Home() {
+  const [toggle,setToggle] = useState(true)
   return (
     <main className="">
       <header>
-        <div className="bg-[#F6623E] flex justify-between items-center py-3 px-[8em] text-white">
-          <p>
+        <div className="bg-[#F6623E] flex justify-between items-center py-3 px-[8em] text-white max-[1026px]:px-2 max-[770px]:flex-col">
+          <p className="text-center">
             Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*
           </p>
           <div className="flex gap-4">
@@ -49,11 +52,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <nav className="flex justify-between items-center py-8 px-[7em]">
+        <nav className="flex justify-between items-center py-8 px-[7em] max-[1026px]:px-2 relative">
           <div>
             <Image src="logo.svg" alt="logo" width={150} height={0} />
           </div>
-          <ul className="flex gap-8">
+          <ul className={`flex gap-8 max-[1026px]:absolute max-[1026px]:right-0 max-[1026px]:bg-white max-[1026px]:px-10 max-[1026px]:items-center max-[1026px]:flex-col  z-10 max-[1026px]:translate-y-[100%] transition ${!toggle?'max-[1026px]:translate-y-[66%] opacity-100':'max-[1026px]:translate-y-[100%] max-[1026px]:opacity-0'}`}>
             <li className="hover:text-[#0000006c]">
               <a href="#">HOME</a>
             </li>
@@ -73,6 +76,7 @@ export default function Home() {
               <a href="#">CONTACT</a>
             </li>
           </ul>
+          
           <div className="flex gap-3">
             <div className="cursor-pointer hover:bg-[#0000006c] hover:rounded-[50%] p-2 w-[50%] h-[50%]">
               <Image src="search.svg" alt="search" width={20} height={0} />
@@ -82,10 +86,15 @@ export default function Home() {
               <Image src="cart.svg" alt="cart" width={20} height={0} />
             </div>
           </div>
+          <div className="hidden max-[1026px]:block">
+            <p onClick={()=>{
+              setToggle(!toggle)
+            }}>burger</p>
+          </div>
         </nav>
       </header>
       <div
-        className="h-[80vh] w-full bg-center bg-cover relative bg-no-repeat"
+        className="h-screen w-full bg-center bg-cover relative bg-no-repeat"
         style={{ background: "url(MaskGroup.svg)" }}
       >
         <div className="absolute top-1/4 w-[40%] right-11 flex flex-col gap-6">
