@@ -37,7 +37,7 @@ const Carousel = ({ images }) => {
                                 <h2 className="font-semibold text-[24px] tracking-widest text-[#F6623E]">REAL RESULTS</h2>
                                 <div className="flex">
                                     {image.rating.map((_, index) => (
-                                        <img key={index} src="star.svg" alt="star" />
+                                        <Image key={index} src="star.svg" alt="star" width={0} hieght={0} style={{width:'auto', hieght:'auto'}} />
                                     ))}
                                 </div>
                                 <p>{image.overview}</p>
@@ -58,7 +58,7 @@ const Carousel = ({ images }) => {
                                 </div>
                             </section>
                             <div className="bg-white">
-                                <img src={image.image} alt={`Slide ${index + 1}`} width={1500} />
+                                <Image src={image.image} alt={`Slide ${index + 1}`} width={1500} hieght={0} />
                             </div>
                         </div>
                     ))}
