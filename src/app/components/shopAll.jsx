@@ -84,7 +84,7 @@ export default function Shopall() {
                     </div>
                     <div className="w-full text-center">
                         <div
-                            className="bg-[#E8E8E8] w-[100%] h-[20em] relative"
+                            className="bg-[#E8E8E8] w-[100%] h-[20em] relative  "
                             style={{
                                 background: "url(multivitamin4.svg)",
                                 backgroundRepeat: "no-repeat",

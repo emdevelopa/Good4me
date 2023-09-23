@@ -3,6 +3,10 @@ import Good4meDeal from "./components/dealsectiong";
 import Ourproducts from "./components/ourproduct";
 import Carousel from "./components/carousel";
 import Shopall from "./components/shopAll";
+import Latestnews from "./components/latestNews";
+import GOOD4ME from "./components/#GOOD4ME";
+import Footer from "./components/footer";
+
 
 
 const images = [
@@ -102,6 +106,9 @@ export default function Home() {
       <Ourproducts />
       <Carousel images={images} />
       <Shopall/>
+      <Latestnews />
+      <GOOD4ME/>
+      <Footer/>
     </main>
   );
 }
