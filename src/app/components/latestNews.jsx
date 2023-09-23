@@ -10,13 +10,8 @@ export default function Latestnews() {
                 </div>
                 <section className=" flex gap-4 justify-around p-12">
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-[20%] relative">
-                            <Image
-                                src="multivitamin.svg"
-                                alt="cards"
-                                width={200}
-                                height={0}
-                            />
+                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews1.svg)' }}>
+
                         </div>
                         <p className="text-[#F6623E] text-center">August 26, 2020</p>
                         <h3 className="font-bold text-center py-4">
@@ -25,18 +20,13 @@ export default function Latestnews() {
                         <p className="text-center text-[#9D9D9D]">We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve....</p>
                         <div className="flex justify-center py-[2em]">
                             <button className="bg-[#F6623E] text-white py-2 px-4 ">
-                                READ MORE
+                                READ
                             </button>
                         </div>
                     </div>
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-[20%] relative">
-                            <Image
-                                src="multivitamin.svg"
-                                alt="cards"
-                                width={200}
-                                height={0}
-                            />
+                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews2.svg)' }}>
+
                         </div>
                         <p className="text-[#F6623E] text-center">August 26, 2020</p>
                         <h3 className="font-bold text-center py-4">
@@ -45,18 +35,13 @@ export default function Latestnews() {
                         <p className="text-center text-[#9D9D9D]">We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve....</p>
                         <div className="flex justify-center py-[2em]">
                             <button className="bg-[#F6623E] text-white py-2 px-4 ">
-                                READ MORE
+                                READ
                             </button>
                         </div>
                     </div>
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-[20%] relative">
-                            <Image
-                                src="multivitamin.svg"
-                                alt="cards"
-                                width={200}
-                                height={0}
-                            />
+                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews3.svg)' }}>
+
                         </div>
                         <p className="text-[#F6623E] text-center">August 26, 2020</p>
                         <h3 className="font-bold text-center py-4">
@@ -65,7 +50,7 @@ export default function Latestnews() {
                         <p className="text-center text-[#9D9D9D]">We care about New Zealand children, and we want to support our community by providing our children in need with necessary vitamins to improve....</p>
                         <div className="flex justify-center py-[2em]">
                             <button className="bg-[#F6623E] text-white py-2 px-4 ">
-                                READ MORE
+                                READ
                             </button>
                         </div>
                     </div>

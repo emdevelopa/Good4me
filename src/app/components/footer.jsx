@@ -29,6 +29,24 @@ export default function Footer() {
                         </div>
                     </div>
                 </section>
+               <div className="px-[4em] pt-[6em]">
+               <hr/>
+               </div>
+                <section className="px-[4em] py-[2em] flex justify-between">
+                    <div className="w-full flex gap-6">
+                        <a href="#"><Image src='facebook.svg' alt='facebook' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
+                        <a href="#"> <Image src='ig.svg' alt='instagram' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
+                        <a href="#"><Image src='x.svg' alt='twitter' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
+                        <a href="#"><Image src='pintrest.svg' alt='pintrest' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
+                        <a href="#"><Image src='youtubee.svg' alt='youtube' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
+                    </div>
+                    <div className="w-full ">
+                        <p>© 2021, <span className="text-[#F6623C]">GOOD4ME</span>. Powered by Shopify</p>
+                    </div>
+                    <div className="w-full">
+                    <Image src='payment.svg' alt='youtube' width={0} height={0} style={{width:'auto', hieght:'auto'}}/>
+                    </div>
+                </section>
             </footer>
         </>
     );
