@@ -43,7 +43,7 @@ const Carousel = ({ images }) => {
                                         ))}
                                     </div>
                                 </div>
-                                <div>
+                                <div className="min-[500px]:flex items-center gap-2">
                                     <p>{image.overview}</p>
                                     <div className="bg-white">
                                         <Image src={image.image} alt={`Slide ${index + 1}`} width={1500} height={0} />

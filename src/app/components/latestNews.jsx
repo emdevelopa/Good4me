@@ -8,9 +8,9 @@ export default function Latestnews() {
                     <h1 className="text-[32px] font-bold">LATEST NEWS</h1>
                     <div className="w-[8em] h-[5px] bg-[#F6623E]"></div>
                 </div>
-                <section className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 justify-around p-12">
+                <section className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-around p-12">
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews1.svg)' }}>
+                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews1.svg)',backgroundSize:'cover' }}>
 
                         </div>
                         <p className="text-[#F6623E] text-center">August 26, 2020</p>
@@ -25,7 +25,7 @@ export default function Latestnews() {
                         </div>
                     </div>
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews2.svg)' }}>
+                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews2.svg)',backgroundSize:'cover' }}>
 
                         </div>
                         <p className="text-[#F6623E] text-center">August 26, 2020</p>
@@ -40,7 +40,7 @@ export default function Latestnews() {
                         </div>
                     </div>
                     <div className="w-full">
-                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews3.svg)' }}>
+                        <div className="bg-[#E8E8E8] h-[18em]" style={{ background: 'url(latnews3.svg)' ,backgroundSize:'cover'}}>
 
                         </div>
                         <p className="text-[#F6623E] text-center">August 26, 2020</p>

@@ -64,7 +64,7 @@ export default function Home() {
               <a href="#">SHOP</a>
             </li>
             <li className="hover:text-[#0000006c]">
-              <a href="#">FAQ'S</a>
+              <a href="#">FAQS</a>
             </li>
             <li className="hover:text-[#0000006c]">
               <a href="#">STOCKISTS</a>
