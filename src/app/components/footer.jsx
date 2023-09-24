@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <section className="flex gap-[8em] px-[4em]">
+                <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-[4em]">
                     <div className="w-[30%] flex flex-col items-center">
                         <Image src='logo.svg' alt="logo" width={150} height={0} />
                         <div><p className="text-center">Good health is important, so all of our products have been carefully designed to bring out the best in you.Good health is important, so all of our products have been carefully designed to bring out the best in you.</p></div>
@@ -32,8 +32,8 @@ export default function Footer() {
                <div className="px-[4em] pt-[6em]">
                <hr/>
                </div>
-                <section className="px-[4em] py-[2em] flex justify-between">
-                    <div className="w-full flex gap-6">
+                <section className="px-[4em] py-[2em] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div className="w-full flex gap-6 justify-center">
                         <a href="#"><Image src='facebook.svg' alt='facebook' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
                         <a href="#"> <Image src='ig.svg' alt='instagram' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
                         <a href="#"><Image src='x.svg' alt='twitter' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
@@ -41,7 +41,7 @@ export default function Footer() {
                         <a href="#"><Image src='youtubee.svg' alt='youtube' width={0} height={0} style={{width:'auto', hieght:'auto'}}/></a>
                     </div>
                     <div className="w-full ">
-                        <p>© 2021, <span className="text-[#F6623C]">GOOD4ME</span>. Powered by Shopify</p>
+                        <p className="text-center">© 2021, <span className="text-[#F6623C]">GOOD4ME</span>. Powered by Shopify</p>
                     </div>
                     <div className="w-full">
                     <Image src='payment.svg' alt='youtube' width={0} height={0} style={{width:'auto', hieght:'auto'}}/>

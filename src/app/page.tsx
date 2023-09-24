@@ -94,8 +94,8 @@ export default function Home() {
         </nav>
       </header>
       <div
-        className="h-screen w-full bg-center bg-cover relative bg-no-repeat"
-        style={{ background: "url(MaskGroup.svg)" }}
+        className="h-screen w-full relative"
+        style={{ background: "url(MaskGroup.svg)",backgroundRepeat:'no-repeat',backgroundSize:'cover'}}
       >
         <div className="absolute top-1/4 w-[40%] right-11 flex flex-col gap-6">
           <h2 className="font-bold text-[20px] text-[#F6623E]">Good4Me</h2>

@@ -36,7 +36,8 @@ export default function Good4meDeal() {
                         <h3 className="font-bold text-center py-4">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
                     </div>
                 </section>
-                <section className="flex gap-8 px-[10em] py-[4em]">
+              <section className="flex items-center  justify-center">
+              <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-[10em] py-[4em] max-[400px]:px-2">
                     <div className="flex flex-col justify-center gap-3 items-center">
                         <Image src='/plane.png' alt='plane' width={100} height={0} />
                         <h1 className="font-bold">WORLDWIDE SHIPPING</h1>
@@ -56,6 +57,7 @@ export default function Good4meDeal() {
                             adipiscing elit. Aenean</p>
                     </div>
                 </section>
+              </section>
 
                 <section className="flex justify-between items-center p-12">
                     <div className="w-[40%]">
