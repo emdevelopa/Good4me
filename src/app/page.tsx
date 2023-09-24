@@ -8,6 +8,7 @@ import Latestnews from "./components/latestNews";
 import GOOD4ME from "./components/#GOOD4ME";
 import Footer from "./components/footer";
 import { useState } from "react";
+import { FaTwitter, FaFacebook, FaInstagram, FaBars } from 'react-icons/fa';
 
 
 
@@ -86,10 +87,10 @@ export default function Home() {
               <Image src="cart.svg" alt="cart" width={20} height={0} />
             </div>
           </div>
-          <div className="hidden max-[1026px]:block">
+          <div className="hidden max-[1026px]:block font-bold">
             <p onClick={()=>{
               setToggle(!toggle)
-            }}>burger</p>
+            }}><FaBars/></p>
           </div>
         </nav>
       </header>
