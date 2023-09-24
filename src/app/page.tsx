@@ -97,7 +97,7 @@ export default function Home() {
         className="h-screen w-full relative"
         style={{ background: "url(MaskGroup.svg)",backgroundRepeat:'no-repeat',backgroundSize:'cover'}}
       >
-        <div className="absolute top-1/4 w-[40%] right-11 flex flex-col gap-6">
+        <div className="absolute top-1/4 w-[40%] right-11 flex flex-col gap-6 max-[994px]:left-10 max-[994px]:w-[60%]">
           <h2 className="font-bold text-[20px] text-[#F6623E]">Good4Me</h2>
           <h1 className="font-bold text-[42px]">Apple Cider Vinegar</h1>
           <p>

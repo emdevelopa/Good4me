@@ -29,19 +29,26 @@ const Carousel = ({ images }) => {
                     {images.map((image, index) => (
                         <div
                             key={index}
-                            className="w-full flex flex-shrink-0 gap-8 px-[12em] items-center relative" // Add relative class here
+                            className="w-full flex flex-shrink-0 gap-8 px-[12em] max-[916px]:p-[6em] max-[724px]:p-[2em] items-center relative" // Add relative class here
                             style={{ flexBasis: "100%" }}
                         >
                             <section className="flex flex-col gap-4 relative"> {/* Add relative class here */}
 
-                                <h4 className="font-semibold text-[12px] tracking-wider pb-[1em]">REAL REVIEWS</h4>
-                                <h2 className="font-semibold text-[24px] tracking-widest text-[#F6623E]">REAL RESULTS</h2>
-                                <div className="flex">
-                                    {image.rating.map((_, index) => (
-                                        <Image key={index} src="star.svg" alt="star" width={0} height={0} style={{width:'auto', hieght:'auto'}} />
-                                    ))}
+                                <div>
+                                    <h4 className="font-semibold text-[12px] tracking-wider pb-[1em]">REAL REVIEWS</h4>
+                                    <h2 className="font-semibold text-[24px] tracking-widest text-[#F6623E]">REAL RESULTS</h2>
+                                    <div className="flex">
+                                        {image.rating.map((_, index) => (
+                                            <Image key={index} src="star.svg" alt="star" width={0} height={0} style={{ width: 'auto', hieght: 'auto' }} />
+                                        ))}
+                                    </div>
                                 </div>
-                                <p>{image.overview}</p>
+                                <div>
+                                    <p>{image.overview}</p>
+                                    <div className="bg-white">
+                                        <Image src={image.image} alt={`Slide ${index + 1}`} width={1500} height={0} />
+                                    </div>
+                                </div>
                                 <p className="text-[#F6623E]">{image.user}</p>
                                 <div className="flex gap-2 text-[#9D9D9D] font-bold"> {/* Move the button container here */}
                                     <button
@@ -58,9 +65,7 @@ const Carousel = ({ images }) => {
                                     </button>
                                 </div>
                             </section>
-                            <div className="bg-white">
-                                <Image src={image.image} alt={`Slide ${index + 1}`} width={1500} height={0} />
-                            </div>
+
                         </div>
                     ))}
                 </div>

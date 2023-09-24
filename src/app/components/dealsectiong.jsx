@@ -37,7 +37,7 @@ export default function Good4meDeal() {
                     </div>
                 </section>
               <section className="flex items-center  justify-center">
-              <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-[10em] py-[4em] max-[400px]:px-2">
+              <section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-[10em] py-[4em] max-[476px]:px-2">
                     <div className="flex flex-col justify-center gap-3 items-center">
                         <Image src='/plane.png' alt='plane' width={100} height={0} />
                         <h1 className="font-bold">WORLDWIDE SHIPPING</h1>
@@ -59,8 +59,8 @@ export default function Good4meDeal() {
                 </section>
               </section>
 
-                <section className="flex justify-between items-center p-12">
-                    <div className="w-[40%]">
+                <section className="flex justify-between items-center gap-2 p-12 max-md:flex-col">
+                    <div className="w-[40%] max-md:w-full">
                         <div className="flex flex-col  justify-center gap-4">
                             <h1 className="font-bold text-[30px] tracking-[4px]">TAKE CONTROL OF <br/> YOUR HEALTH</h1>
                             <p>The Good4Me range has been formulated based on scientific & traditional evidence.</p>
@@ -69,7 +69,7 @@ export default function Good4meDeal() {
                             <div><button className="font-bold py-4 px-6 border-[2px] border-[#F6623E] hover:bg-[#F6623E] hover:text-[#fff]">BROWSE OUR RANGE</button></div>
                         </div>
                     </div>
-                    <div className="flex gap-4 flex-shrink-3 w-[50%]">
+                    <div className="flex gap-4 flex-shrink-3 w-[50%] max-md:w-full">
                         <div className="flex flex-col justify-between">
                             <Image src='lady1.svg' alt='plane' width={0} height={0} style={{ width: 'auto', height: 'auto' }} />
                             <Image src='lady2.svg' alt='plane' width={0} height={0} style={{ width: 'auto', height: 'auto' }} />
