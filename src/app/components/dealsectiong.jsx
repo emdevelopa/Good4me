@@ -11,7 +11,7 @@ export default function Good4meDeal() {
                         Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all classy <br /> products today!
                     </p>
                 </div>
-                <section className=" flex gap-4 justify-around p-12">
+                <section className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 justify-around p-12">
                     <div className="w-full">
                         <div className="bg-[#E8E8E8] h-[20em] flex items-center justify-center px-2 py-[20%]">
                             <Image src='multivitamin.svg' alt='cards' width={200} height={0} />
